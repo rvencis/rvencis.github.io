@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://rvencis.github.io/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rvencis.github.io/about.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rvencis.github.io/services.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rvencis.github.io/internship.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rvencis.github.io/contact.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <priority>0.7</priority>
+  </url>
+</urlset>
