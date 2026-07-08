@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | Rvencis</title>
+    <meta name="description" content="The page you're looking for doesn't exist. Return to Rvencis homepage for AI research and innovation.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/ficon.png">
+    <link rel="icon" type="image/x-icon" href="/ficon.ico">
+    <link rel="apple-touch-icon" href="/ficon.png">
+
+    <style>
+        .error-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .error-content {
+            max-width: 600px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .error-code {
+            font-size: 120px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+
+        .error-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .error-message {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .error-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .error-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+
+        .error-orb {
+            position: absolute;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            filter: blur(80px);
+            opacity: 0.3;
+            animation: float 8s ease-in-out infinite;
+        }
+
+        .error-orb-1 {
+            width: 200px;
+            height: 200px;
+            top: 20%;
+            left: 10%;
+        }
+
+        .error-orb-2 {
+            width: 150px;
+            height: 150px;
+            bottom: 20%;
+            right: 10%;
+            animation-delay: -2s;
+        }
+
+        @media (max-width: 768px) {
+            .error-code {
+                font-size: 80px;
+            }
+
+            .error-title {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon">
+                    <img src="logo.png" width="30" height="30" alt="Logo">
+                </div>
+                <span class="logo-text">Rvencis</span>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#research" class="nav-link">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#benefits" class="nav-link">Benefits</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Error Section -->
+    <section class="error-page">
+        <div class="error-background">
+            <div class="error-orb error-orb-1"></div>
+            <div class="error-orb error-orb-2"></div>
+        </div>
+        <div class="error-content">
+            <div class="error-code">404</div>
+            <h1 class="error-title">Page Not Found</h1>
+            <p class="error-message">
+                The page you're looking for doesn't exist or has been moved. 
+                Let's get you back to exploring AI research and innovation.
+            </p>
+            <div class="error-buttons">
+                <a href="index.html" class="btn btn-primary">Go Home</a>
+                <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-section" style="margin-bottom: 25px;">
+                <div class="footer-logo">
+                    <div class="logo-icon">
+                        <img src="logo.png" width="30" height="30" alt="Logo">
+                    </div>
+                    <span>Rvencis</span>
+                </div>
+                <p class="footer-tagline">Rvencis – Research Smarter, Experiment Deeper, and Innovate Further.</p>
+            </div>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Research</h4>
+                    <ul>
+                        <li><a href="index.html#research">Internal System Development</a></li>
+                        <li><a href="index.html#research">Experiment Documentation</a></li>
+                        <li><a href="index.html#research">Educational Programs</a></li>
+                        <li><a href="index.html#research">Future Projects</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/company/rvencis">LinkedIn</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61583093540529">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom" style="font-size: 14px;">
+                <a href="https://zalanlykos.github.io/" target="_blank" rel="noopener">Visioned and Crafted by<span style="color: white;"> Zalan Lykos</span></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
